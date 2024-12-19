@@ -1,0 +1,47 @@
+{
+	"_language_name": "English",
+
+	"label_index": "Index with label",
+	"plugin_index_with_label": "Plugin Index with label `{0}`",
+	"back_to_index": "Back to index",
+	"basic_info": "Basic Information",
+	"plugin_amount": "Plugin Amount",
+	"plugin_id": "Plugin ID",
+	"plugin_name": "Plugin Name",
+	"version": "Version",
+	"metadata_version": "Metadata version",
+	"release_version": "Release version",
+	"total_downloads": "Total downloads",
+	"authors": "Authors",
+	"repository": "Repository",
+	"repository_plugin_page": "Repository plugin page",
+	"labels": "Labels",
+	"last_update": "Last Update",
+	"description": "Description",
+	"dependencies": "Dependencies",
+	"dependencies.requirement": "Requirement",
+	"requirements": "Requirements",
+	"python_package": "Python package",
+	"requirements.requirement": "Requirement",
+	"none": "None",
+	"data_fetched_failed": "Data fetching failed",
+	"introduction": "Introduction",
+	"download": "Download",
+	"file": "File",
+	"upload_time": "Upload Time (UTC)",
+	"size": "Size",
+	"download_amount": "Downloads",
+	"operations": "Operations",
+	"operations.download": "Download",
+
+	"rtfm_warn": "Read the README file in plugin repository before using it.",
+
+	"label.information": "Information",
+	"label.tool": "Tool",
+	"label.management": "Management",
+	"label.api": "API",
+	"label.handler": "Handler",
+
+
+	"#dummy": "no comma this line"
+}

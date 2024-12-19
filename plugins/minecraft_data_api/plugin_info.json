@@ -1,0 +1,12 @@
+{
+	"id": "minecraft_data_api",
+	"authors": [
+		{
+			"name": "Fallen_Breath",
+			"link": "https://github.com/Fallen-Breath"
+		}
+	],
+	"repository": "https://github.com/Fallen-Breath/MinecraftDataAPI/",
+	"branch": "next",
+	"labels": ["api"]
+}

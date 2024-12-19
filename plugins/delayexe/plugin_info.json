@@ -1,0 +1,15 @@
+{
+    "id": "delayexe",
+    "authors": [{
+        "name": "zyxkad",
+        "link": "https://github.com/zyxkad"
+    }],
+    "repository": "https://github.com/kmcsr/delayexe_mcdr",
+    "branch": "master",
+    "related_path": ".",
+    "labels": ["tool", "api"],
+    "introduction": {
+        "en_us": "README.MD",
+        "zh_cn": "README_zh.MD"
+    }
+}

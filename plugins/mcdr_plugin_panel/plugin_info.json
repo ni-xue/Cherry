@@ -1,0 +1,11 @@
+{
+    "disable": true,
+    "disable_reason": "repository not found",
+
+    "id": "mcdr_plugin_panel",
+    "authors": [{ "name": "ZeroKelvin", "link": "https://github.com/BelowZeroKelvin" }],
+    "repository": "https://github.com/BelowZeroKelvin/MCDRPluginPanel",
+    "branch": "master",
+    "related_path": "plugin",
+    "labels": ["tool", "api"]
+}

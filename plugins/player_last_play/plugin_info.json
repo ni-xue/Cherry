@@ -1,0 +1,17 @@
+{
+	"id": "player_last_play",
+	"authors": [
+		{
+			"name": "Aimerny",
+			"link": "https://github.com/Aimerny"
+		}
+	],
+	"repository": "https://github.com/Aimerny/MCDRPlugins",
+	"branch": "main",
+	"related_path": "src/player_last_play",
+	"labels": ["information"],
+	"introduction": {
+		"en_us": "README.md",
+		"zh_cn": "README.md"
+	}
+}
