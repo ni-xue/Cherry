@@ -2,8 +2,8 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const srcDir = path.join(__dirname, 'docs', '.vitepress', 'dist');
-const destDir = path.join(__dirname, 'dist');
+const srcDir = path.join(__dirname, 'docscode', '.vitepress', 'dist');
+const destDir = path.join(__dirname, 'docs');
 
 async function copyBuild() {
   try {
