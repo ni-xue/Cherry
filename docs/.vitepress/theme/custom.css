@@ -1,0 +1,46 @@
+/* 该文件配置网站的文字  图标 等等 一系列dom元素的样式文件 */
+:root {
+    /* 通过配置 自定义颜色 */
+    --vp-home-hero-name-color: transparent;
+    /* 主页标题文字的颜色  */
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #DE3163, #da9a23);
+  
+    /* 主页左侧背景添加渐变光圈 */
+    --vp-home-hero-image-background-image: linear-gradient(100deg, #DE3163 40%, #da9a23 50%);
+    --vp-home-hero-image-filter: blur(250px);
+  
+  
+    /* botton按钮 */
+    /* --vp-button-brand-border: #81634b; */
+    /* 按钮文本颜色 */
+    --vp-button-brand-text: #ffffff;
+    /* 按钮背景颜色 */
+    --vp-button-brand-bg: #DE3163;
+  
+  
+    /* 鼠标悬停的效果之后的样式 */
+    --vp-button-brand-hover-border: #00FFEE;
+    --vp-button-brand-hover-text: #000000;
+    --vp-button-brand-hover-bg: #00FFEE;
+  
+    --vp-button-brand-active-border: #DE3163;
+  
+    /* 主题基色 */
+    --vp-c-brand: #DE3163;
+    /* 白色模式 主题基色 */
+    --vp-c-brand-light: #DE3163;
+    /* 黑色模式 主题基色 */
+    --vp-c-brand-dark: #DE3163;
+
+    .VPFeature {
+        border: none;
+        box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+        background-color: transparent;
+    }
+    .text{
+       color: #DE3163; 
+    }
+    
+  }
+  
+  
