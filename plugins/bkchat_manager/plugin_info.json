@@ -8,7 +8,7 @@
     ],
     "repository": "https://github.com/Mooling0602/BukkitChatManager-MCDR",
     "branch": "main",
-    "related_path": ".",
+    "related_path": ".//",
     "labels": ["information", "management"],
     "introduction": {
         "en_us": "README.md",
