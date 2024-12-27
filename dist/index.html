@@ -176,7 +176,6 @@
                     document.getElementById(`${platform}Description`).textContent = platformData.depict || '无描述';
                     document.getElementById(`${platform}sup`).style.display = 'none';
                     const downloadLink = document.getElementById(`${platform}Download`);
-                    downloadLink.textContent = `下载 ${platformData.newName || '文件'}`;
                     downloadLink.href = `download/${platform}/${platformData.newName || ''}`;
                     downloadLink.download = platformData.newName || '';
                     const oldTags = document.getElementById(`${platform}OldTags`);
