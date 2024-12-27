@@ -467,7 +467,7 @@ a.linkbutton:active {
   margin: 40px 0;
   overflow: hidden;
   position: relative;
-  min-height: 800px;
+  min-height: 1000px;
 }
 
 .banner-info {
@@ -544,7 +544,7 @@ a.second-link:hover {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 600px;
   position: absolute;
   bottom: 100px;
 }
