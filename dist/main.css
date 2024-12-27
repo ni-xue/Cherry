@@ -163,7 +163,7 @@ img {
   position: fixed;
   justify-content: center;
   flex-direction: column;
-  background: var(--heo-navbg);
+  background: #d03050;
   align-items: center;
   z-index: 2;
   transition: ease-in-out 0.3s;
