@@ -169,7 +169,7 @@
                         document.getElementById(`${platform}sup`).style.display = 'none';
                         for (const key in list) {
                             if (list.hasOwnProperty(key)) {
-                                const jq = $(`${platform}button`);
+                                const jq = $(`#${platform}button`);
                                 if (isValidUrl(list[key])) {
                                     jq.append(`<a class="linkbutton" href="download/${platform}/${list[key] || '#'}" id="${platform}OldTags" target="_blank" style="margin-left: 10px;">${key}</a>`);
                                 } else {
