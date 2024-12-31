@@ -164,10 +164,10 @@
             .then(data => {
                 platforms.forEach(platform => {
                     if (data[platform]) { // 如果有该平台的配置
-                        const platformData = data[platform];
+                        const platformData = data[platform], list = platformData.list;
                         document.getElementById(`${platform}Description`).textContent = platformData.depict || '无描述';
                         document.getElementById(`${platform}sup`).style.display = 'none';
-                        for (const key in platformData.list) {
+                        for (const key in list) {
                             if (list.hasOwnProperty(key)) {
                                 const jq = $(`${platform}button`);
                                 if (isValidUrl(list[key])) {
