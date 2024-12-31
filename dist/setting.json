@@ -1,8 +1,16 @@
 {
-    "windows":
-    {
-        "newName":"p2pInstall-v2.4x64.exe",
-        "oldTags":"https://github.com/ni-xue/Cherry.Plugins/tree/tags/dist/download/windows",
-        "depict":"当前版本为公测版，可以免费使用！"
-    }
+  "windows": {
+    "list": {
+      "64位下载": {
+        "url": "p2pInstall-v2.4x64.exe"
+      },
+      "32位下载": {
+        "url": "p2pInstall-v2.4x32.exe"
+      },
+      "旧版本": {
+        "url": "https://github.com/ni-xue/Cherry.Plugins/tree/tags/dist/download/windows"
+      }
+    },
+    "depict": "当前版本为公测版，可以免费使用！"
+  }
 }
