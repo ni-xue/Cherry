@@ -171,9 +171,9 @@
                             if (list.hasOwnProperty(key)) {
                                 const jq = $(`#${platform}button`), url = list[key].url;
                                 if (isValidUrl(url)) {
-                                    jq.append(`<a class="linkbutton" href="download/${platform}/${url || '#'}" target="_blank" style="margin-left: 8px;">${key}</a>`);
-                                } else {
                                     jq.append(`<a class="linkbutton" href="${url || '#'}" download="${url || '#'}" style="margin-right: 5px;">${key}</a>`);
+                                } else {
+                                    jq.append(`<a class="linkbutton" href="download/${platform}/${url || '#'}" target="_blank" style="margin-left: 8px;">${key}</a>`);
                                 }
                             }
                         }
