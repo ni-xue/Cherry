@@ -403,7 +403,7 @@ span.linkbotton-tips {
 }
 
 a.linkbutton {
-  padding: 6px 20px;
+  padding: 6px 10px;
   display: flex;
   background: var(--heo-blue);
   color: var(--heo-white);
