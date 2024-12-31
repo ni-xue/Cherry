@@ -180,7 +180,7 @@
                     downloadLink.download = platformData.newName || '';
                     const oldTags = document.getElementById(`${platform}OldTags`);
                     oldTags.href = platformData.oldTags || '#';
-                    oldTags.textContent = '旧版本'; // 确保文本内容存在，即使链接不可用
+                    oldTags.textContent = '旧版本' + platform === 'windows' ? '或32位' : ''; // 确保文本内容存在，即使链接不可用
                 }else{
                   document.getElementById(`${platform}button`).style.display = 'none';
                 }
