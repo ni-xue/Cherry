@@ -5,7 +5,7 @@
         "url": "p2pInstall-v2.4x64.exe"
       },
       "32位下载": {
-        "url": "p2pInstall-v2.4x32.exe"
+        "url": "p2pInstall-v2.4x86.exe"
       },
       "旧版本": {
         "url": "https://github.com/ni-xue/Cherry.Plugins/tree/tags/dist/download/windows"
