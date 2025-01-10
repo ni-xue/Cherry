@@ -1,5 +1,5 @@
 {
-  "timestamp": 1736520254,
+  "timestamp": 1736525164,
   "authors": {
     "amount": 2,
     "authors": {
@@ -27,7 +27,7 @@
         "requirements": [],
         "description": {
           "en_us": "Provides multiple convenient in-game calculations",
-          "zh_cn": "\u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97"
+          "zh_cn": "提供游戏内多种便捷计算"
         }
       },
       "plugin": {
@@ -42,8 +42,8 @@
           "tool"
         ],
         "introduction": {
-          "en_us": "# AdvancedCalculator\n\n\u003E \u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97\n\n## \u4F7F\u7528\n\n\u60A8\u53EF\u4EE5\u4F7F\u7528 \u0060=\u003Cexpression\u003E\u0060 \u76F4\u63A5\u8BA1\u7B97\u8868\u8FBE\u5F0F\uFF0C\u6216\u4F7F\u7528 \u0060==\u003Ccount/expression\u003E\u0060 \u5C06\u7269\u54C1\u6570\u8F6C\u6362\u5806\u53E0\u6570\u3002\n\n| \u6307\u4EE4 | \u7528\u9014 | \u793A\u4F8B | \u7ED3\u679C |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | \u8BA1\u7B97\u8868\u8FBE\u5F0F | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | \u7269\u54C1\u6570\u8F6C\u6362\u5806\u53E0\u6570 | !!calc item 1794 | 1794\u4E2A\u7269\u54C1\u4E3A1\u76D22\u7EC43\u4E2A |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | \u5806\u53E0\u6570\u8F6C\u6362\u7269\u54C1\u6570 | !!calc item 1 10 32 | 1\u76D210\u7EC432\u4E2A\u4E3A2400\u4E2A\u7269\u54C1 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10\u8FDB\u5236RGB\u8F6C16\u8FDB\u5236 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16\u5341\u8FDB\u5236RGB\u8F6C10\u8FDB\u5236 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n",
-          "zh_cn": "# AdvancedCalculator\n\n\u003E \u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97\n\n## \u4F7F\u7528\n\n\u60A8\u53EF\u4EE5\u4F7F\u7528 \u0060=\u003Cexpression\u003E\u0060 \u76F4\u63A5\u8BA1\u7B97\u8868\u8FBE\u5F0F\uFF0C\u6216\u4F7F\u7528 \u0060==\u003Ccount/expression\u003E\u0060 \u5C06\u7269\u54C1\u6570\u8F6C\u6362\u5806\u53E0\u6570\u3002\n\n| \u6307\u4EE4 | \u7528\u9014 | \u793A\u4F8B | \u7ED3\u679C |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | \u8BA1\u7B97\u8868\u8FBE\u5F0F | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | \u7269\u54C1\u6570\u8F6C\u6362\u5806\u53E0\u6570 | !!calc item 1794 | 1794\u4E2A\u7269\u54C1\u4E3A1\u76D22\u7EC43\u4E2A |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | \u5806\u53E0\u6570\u8F6C\u6362\u7269\u54C1\u6570 | !!calc item 1 10 32 | 1\u76D210\u7EC432\u4E2A\u4E3A2400\u4E2A\u7269\u54C1 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10\u8FDB\u5236RGB\u8F6C16\u8FDB\u5236 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16\u5341\u8FDB\u5236RGB\u8F6C10\u8FDB\u5236 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n"
+          "en_us": "# AdvancedCalculator\n\n\u003E 提供游戏内多种便捷计算\n\n## 使用\n\n您可以使用 \u0060=\u003Cexpression\u003E\u0060 直接计算表达式，或使用 \u0060==\u003Ccount/expression\u003E\u0060 将物品数转换堆叠数。\n\n| 指令 | 用途 | 示例 | 结果 |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | 计算表达式 | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | 物品数转换堆叠数 | !!calc item 1794 | 1794个物品为1盒2组3个 |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | 堆叠数转换物品数 | !!calc item 1 10 32 | 1盒10组32个为2400个物品 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10进制RGB转16进制 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16十进制RGB转10进制 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n",
+          "zh_cn": "# AdvancedCalculator\n\n\u003E 提供游戏内多种便捷计算\n\n## 使用\n\n您可以使用 \u0060=\u003Cexpression\u003E\u0060 直接计算表达式，或使用 \u0060==\u003Ccount/expression\u003E\u0060 将物品数转换堆叠数。\n\n| 指令 | 用途 | 示例 | 结果 |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | 计算表达式 | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | 物品数转换堆叠数 | !!calc item 1794 | 1794个物品为1盒2组3个 |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | 堆叠数转换物品数 | !!calc item 1 10 32 | 1盒10组32个为2400个物品 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10进制RGB转16进制 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16十进制RGB转10进制 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n"
         },
         "introduction_urls": {
           "en_us": "https://raw.githubusercontent.com/AnzhiZhang/MCDReforgedPlugins/master/src/advanced_calculator/readme.md",
@@ -84,7 +84,7 @@
               "requirements": [],
               "description": {
                 "en_us": "Provides multiple convenient in-game calculations",
-                "zh_cn": "\u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97"
+                "zh_cn": "提供游戏内多种便捷计算"
               }
             }
           },
@@ -93,7 +93,7 @@
             "name": "advanced_calculator: v0.3.0",
             "tag_name": "advanced_calculator-v0.3.0",
             "created_at": "2022-10-21T20:02:55Z",
-            "description": "## [0.3.0](https://github.com/AnzhiZhang/MCDReforgedPlugins/compare/advanced_calculator-v0.2.1...advanced_calculator-v0.3.0) (2022-10-21)\n\n\n### Features\n\n* **advanced_calculator:** \u2728 set \u0060==\u0060 as \u0060!!calc item\u0060 ([9f7e0da](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/9f7e0da8e8a54b04a1afa0c85b668a9dbdaabedd))",
+            "description": "## [0.3.0](https://github.com/AnzhiZhang/MCDReforgedPlugins/compare/advanced_calculator-v0.2.1...advanced_calculator-v0.3.0) (2022-10-21)\n\n\n### Features\n\n* **advanced_calculator:** ✨ set \u0060==\u0060 as \u0060!!calc item\u0060 ([9f7e0da](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/9f7e0da8e8a54b04a1afa0c85b668a9dbdaabedd))",
             "prerelease": false,
             "asset": {
               "id": 81840918,
@@ -117,7 +117,7 @@
               "requirements": [],
               "description": {
                 "en_us": "Provides multiple convenient in-game calculations",
-                "zh_cn": "\u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97"
+                "zh_cn": "提供游戏内多种便捷计算"
               }
             }
           },
@@ -126,7 +126,7 @@
             "name": "advanced_calculator: v0.2.1",
             "tag_name": "advanced_calculator-v0.2.1",
             "created_at": "2022-07-21T13:19:23Z",
-            "description": "## [0.2.1](https://github.com/AnzhiZhang/MCDReforgedPlugins/compare/advanced_calculator-v0.2.0...advanced_calculator-v0.2.1) (2022-07-21)\n\n\n### Bug Fixes\n\n* **advanced_calculator:** \uD83D\uDD12\uFE0F add security eval check in !!calc item command (fix [#54](https://github.com/AnzhiZhang/MCDReforgedPlugins/issues/54)) ([444dd85](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/444dd859a7c8a9fc65c612027893689ae9d7e314))",
+            "description": "## [0.2.1](https://github.com/AnzhiZhang/MCDReforgedPlugins/compare/advanced_calculator-v0.2.0...advanced_calculator-v0.2.1) (2022-07-21)\n\n\n### Bug Fixes\n\n* **advanced_calculator:** \uD83D\uDD12️ add security eval check in !!calc item command (fix [#54](https://github.com/AnzhiZhang/MCDReforgedPlugins/issues/54)) ([444dd85](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/444dd859a7c8a9fc65c612027893689ae9d7e314))",
             "prerelease": false,
             "asset": {
               "id": 72252591,
@@ -150,7 +150,7 @@
               "requirements": [],
               "description": {
                 "en_us": "Provides multiple convenient in-game calculations",
-                "zh_cn": "\u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97"
+                "zh_cn": "提供游戏内多种便捷计算"
               }
             }
           },
@@ -159,7 +159,7 @@
             "name": "advanced_calculator: v0.2.0",
             "tag_name": "advanced_calculator-v0.2.0",
             "created_at": "2022-07-18T11:46:42Z",
-            "description": "## [0.2.0](https://github.com/AnzhiZhang/MCDReforgedPlugins/compare/advanced_calculator-0.1.0...advanced_calculator-v0.2.0) (2022-07-18)\n\n\n### Features\n\n* **advanced_calculator:** \uD83D\uDD12\uFE0F add expression characters whitelist (resolve [#48](https://github.com/AnzhiZhang/MCDReforgedPlugins/issues/48)) ([aec8b6d](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/aec8b6d2826de53c5d941b62d1f5c117199a5d76))\n\n\n### Bug Fixes\n\n* **advanced_calculator:** \uD83D\uDC1B fix reply exception info error ([b4e178f](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/b4e178f488ff8bbc824eb57b3757c9c4ac067997))",
+            "description": "## [0.2.0](https://github.com/AnzhiZhang/MCDReforgedPlugins/compare/advanced_calculator-0.1.0...advanced_calculator-v0.2.0) (2022-07-18)\n\n\n### Features\n\n* **advanced_calculator:** \uD83D\uDD12️ add expression characters whitelist (resolve [#48](https://github.com/AnzhiZhang/MCDReforgedPlugins/issues/48)) ([aec8b6d](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/aec8b6d2826de53c5d941b62d1f5c117199a5d76))\n\n\n### Bug Fixes\n\n* **advanced_calculator:** \uD83D\uDC1B fix reply exception info error ([b4e178f](https://github.com/AnzhiZhang/MCDReforgedPlugins/commit/b4e178f488ff8bbc824eb57b3757c9c4ac067997))",
             "prerelease": false,
             "asset": {
               "id": 71917239,
@@ -183,7 +183,7 @@
               "requirements": [],
               "description": {
                 "en_us": "Provides multiple convenient in-game calculations",
-                "zh_cn": "\u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97"
+                "zh_cn": "提供游戏内多种便捷计算"
               }
             }
           }
@@ -199,7 +199,7 @@
         "stargazers_count": 95,
         "watchers_count": 95,
         "forks_count": 55,
-        "readme": "# AdvancedCalculator\n\n\u003E \u63D0\u4F9B\u6E38\u620F\u5185\u591A\u79CD\u4FBF\u6377\u8BA1\u7B97\n\n## \u4F7F\u7528\n\n\u60A8\u53EF\u4EE5\u4F7F\u7528 \u0060=\u003Cexpression\u003E\u0060 \u76F4\u63A5\u8BA1\u7B97\u8868\u8FBE\u5F0F\uFF0C\u6216\u4F7F\u7528 \u0060==\u003Ccount/expression\u003E\u0060 \u5C06\u7269\u54C1\u6570\u8F6C\u6362\u5806\u53E0\u6570\u3002\n\n| \u6307\u4EE4 | \u7528\u9014 | \u793A\u4F8B | \u7ED3\u679C |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | \u8BA1\u7B97\u8868\u8FBE\u5F0F | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | \u7269\u54C1\u6570\u8F6C\u6362\u5806\u53E0\u6570 | !!calc item 1794 | 1794\u4E2A\u7269\u54C1\u4E3A1\u76D22\u7EC43\u4E2A |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | \u5806\u53E0\u6570\u8F6C\u6362\u7269\u54C1\u6570 | !!calc item 1 10 32 | 1\u76D210\u7EC432\u4E2A\u4E3A2400\u4E2A\u7269\u54C1 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10\u8FDB\u5236RGB\u8F6C16\u8FDB\u5236 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16\u5341\u8FDB\u5236RGB\u8F6C10\u8FDB\u5236 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n",
+        "readme": "# AdvancedCalculator\n\n\u003E 提供游戏内多种便捷计算\n\n## 使用\n\n您可以使用 \u0060=\u003Cexpression\u003E\u0060 直接计算表达式，或使用 \u0060==\u003Ccount/expression\u003E\u0060 将物品数转换堆叠数。\n\n| 指令 | 用途 | 示例 | 结果 |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | 计算表达式 | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | 物品数转换堆叠数 | !!calc item 1794 | 1794个物品为1盒2组3个 |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | 堆叠数转换物品数 | !!calc item 1 10 32 | 1盒10组32个为2400个物品 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10进制RGB转16进制 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16十进制RGB转10进制 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n",
         "readme_url": "https://raw.githubusercontent.com/AnzhiZhang/MCDReforgedPlugins/master/src/advanced_calculator/readme.md"
       }
     },
@@ -217,7 +217,7 @@
         "requirements": [],
         "description": {
           "en_us": "A server side waypoint manager",
-          "zh_cn": "\u4E00\u4E2A\u670D\u52A1\u7AEF\u5171\u4EAB\u8DEF\u6807\u70B9\u7BA1\u7406\u5668111"
+          "zh_cn": "一个服务端共享路标点管理器111"
         }
       },
       "plugin": {
