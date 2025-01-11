@@ -1,5 +1,5 @@
 {
-  "timestamp": 1736566715,
+  "timestamp": 1736594818,
   "authors": {
     "amount": 2,
     "authors": {
@@ -252,7 +252,7 @@
         "name": "Location Marker",
         "full_name": "ni-xue/Cherry.Cmd",
         "html_url": "https://github.com/TISUnion/LocationMarker",
-        "description": "",
+        "description": "支持在线 远程执行命令",
         "archived": false,
         "stargazers_count": 0,
         "watchers_count": 0,
