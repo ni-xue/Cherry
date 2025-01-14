@@ -1,5 +1,5 @@
 {
-  "timestamp": 1736818330,
+  "timestamp": 1736820562,
   "authors": {
     "amount": 2,
     "authors": {
@@ -17,37 +17,40 @@
     "905574194": {
       "meta": {
         "id": 905574194,
-        "name": "AdvancedCalculator",
-        "version": "0.3.1",
-        "link": "https://github.com/AnzhiZhang/MCDReforgedPlugins/tree/master/src/advanced_calculator",
+        "name": "Location Marker",
+        "version": "1.3.2",
+        "link": "https://github.com/TISUnion/LocationMarker",
         "authors": [
-          "Andy Zhang"
+          "ni-xue",
+          "arxb233"
         ],
         "dependencies": {},
         "requirements": [],
         "description": {
-          "en_us": "Provides multiple convenient in-game calculations",
-          "zh_cn": "提供游戏内多种便捷计算"
+          "en_us": "A server side waypoint manager",
+          "zh_cn": "一个服务端共享路标点管理器111"
         }
       },
       "plugin": {
         "id": 905574194,
         "authors": [
-          "Andy Zhang"
+          "ni-xue",
+          "arxb233"
         ],
         "repository": "https://github.com/AnzhiZhang/MCDReforgedPlugins",
-        "branch": "master",
-        "related_path": "src/advanced_calculator",
+        "branch": "refs/heads/main",
+        "related_path": "",
         "labels": [
-          "tool"
+          "tool",
+          "api"
         ],
         "introduction": {
-          "en_us": "# AdvancedCalculator\n\n\u003E 提供游戏内多种便捷计算\n\n## 使用\n\n您可以使用 \u0060=\u003Cexpression\u003E\u0060 直接计算表达式，或使用 \u0060==\u003Ccount/expression\u003E\u0060 将物品数转换堆叠数。\n\n| 指令 | 用途 | 示例 | 结果 |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | 计算表达式 | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | 物品数转换堆叠数 | !!calc item 1794 | 1794个物品为1盒2组3个 |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | 堆叠数转换物品数 | !!calc item 1 10 32 | 1盒10组32个为2400个物品 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10进制RGB转16进制 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16十进制RGB转10进制 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n",
-          "zh_cn": "# AdvancedCalculator\n\n\u003E 提供游戏内多种便捷计算\n\n## 使用\n\n您可以使用 \u0060=\u003Cexpression\u003E\u0060 直接计算表达式，或使用 \u0060==\u003Ccount/expression\u003E\u0060 将物品数转换堆叠数。\n\n| 指令 | 用途 | 示例 | 结果 |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | 计算表达式 | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | 物品数转换堆叠数 | !!calc item 1794 | 1794个物品为1盒2组3个 |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | 堆叠数转换物品数 | !!calc item 1 10 32 | 1盒10组32个为2400个物品 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10进制RGB转16进制 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16十进制RGB转10进制 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n"
+          "en_us": "Hello\n",
+          "zh_cn": "哈喽大家好这是 Cmd 插件\n"
         },
         "introduction_urls": {
-          "en_us": "https://raw.githubusercontent.com/AnzhiZhang/MCDReforgedPlugins/master/src/advanced_calculator/readme.md",
-          "zh_cn": "https://raw.githubusercontent.com/AnzhiZhang/MCDReforgedPlugins/master/src/advanced_calculator/readme.md"
+          "en_us": "https://raw.githubusercontent.com/ni-xue/Cherry.Cmd/refs/heads/main/readme/README.en_US.md",
+          "zh_cn": "https://raw.githubusercontent.com/ni-xue/Cherry.Cmd/refs/heads/main/readme/README.zh_CN.md"
         }
       },
       "release": {
@@ -190,17 +193,17 @@
         ]
       },
       "repository": {
-        "url": "https://github.com/AnzhiZhang/MCDReforgedPlugins",
-        "name": "MCDReforgedPlugins",
-        "full_name": "AnzhiZhang/MCDReforgedPlugins",
-        "html_url": "https://github.com/AnzhiZhang/MCDReforgedPlugins",
-        "description": "MCDReforged Plugins",
+        "url": "https://github.com/ni-xue/Cherry.Cmd",
+        "name": "Location Marker",
+        "full_name": "ni-xue/Cherry.Cmd",
+        "html_url": "https://github.com/TISUnion/LocationMarker",
+        "description": "支持在线 远程执行命令",
         "archived": false,
-        "stargazers_count": 95,
-        "watchers_count": 95,
-        "forks_count": 55,
-        "readme": "# AdvancedCalculator\n\n\u003E 提供游戏内多种便捷计算\n\n## 使用\n\n您可以使用 \u0060=\u003Cexpression\u003E\u0060 直接计算表达式，或使用 \u0060==\u003Ccount/expression\u003E\u0060 将物品数转换堆叠数。\n\n| 指令 | 用途 | 示例 | 结果 |\n| - | - | - | - |\n| !!calc \\\u003Cexpression\u003E | 计算表达式 | !!calc 1\u002B1 | 1\u002B1=2 |\n| !!calc item \\\u003Ccount/expression\u003E | 物品数转换堆叠数 | !!calc item 1794 | 1794个物品为1盒2组3个 |\n| !!calc item \\\u003Cbox\u003E \\\u003Cstack\u003E \\\u003Csingle\u003E | 堆叠数转换物品数 | !!calc item 1 10 32 | 1盒10组32个为2400个物品 |\n| !!calc color \\\u003Cred\u003E \\\u003Cgreen\u003E \\\u003Cblue\u003E | 10进制RGB转16进制 | !!calc color 255 0 255 | (255, 0, 255) -\u003E #FF00FF |\n| !!calc color \\\u003C#HEX\u003E | 16十进制RGB转10进制 | !!calc color #00FF00 | #00FF00 -\u003E (0, 255, 0) |\n",
-        "readme_url": "https://raw.githubusercontent.com/AnzhiZhang/MCDReforgedPlugins/master/src/advanced_calculator/readme.md"
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "forks_count": 0,
+        "readme": "# Cherry.Cmd\n支持在线 远程执行命令\n",
+        "readme_url": "https://raw.githubusercontent.com/ni-xue/Cherry.Cmd/refs/heads/main/README.md"
       }
     },
     "123": {
